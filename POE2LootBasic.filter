@@ -1,0 +1,72 @@
+Show # Scrolls of wisdom
+	Class == "Stackable Currency"
+	BaseType == "Scroll of Wisdom"
+	SetFontSize 40
+	SetTextColor 180 130 90 230
+	SetBorderColor 50 0 0 255
+	SetBackgroundColor 20 20 0 255
+ 
+Show # All rares
+	Rarity Rare
+	SetFontSize 45
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 8 300
+	PlayEffect Yellow
+	MinimapIcon 2 Yellow Diamond
+ 
+Show # All uniques
+	Rarity Rare
+	SetFontSize 45
+	SetTextColor 175 96 37 255
+	SetBorderColor 175 96 37 255
+	SetBackgroundColor 20 20 0 255
+	PlayAlertSound 3 300
+	PlayEffect Brown
+	MinimapIcon 2 Brown Star
+
+Show # All magic
+	Rarity Magic
+	SetFontSize 40
+	
+
+Show # Gold
+	BaseType "Gold"
+	SetFontSize 36
+
+
+Show # Currency
+	Class == "Stackable Currency"
+	SetFontSize 42
+	SetTextColor 0 0 0 255
+	SetBorderColor 7 14 54 255
+	SetBackgroundColor 133 68 6 255
+	PlayAlertSound 16 200
+	MinimapIcon 2 Orange Raindrop
+
+Show # Runes
+	BaseType "Rune"
+	SetFontSize 45
+	SetTextColor 0 0 0 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 255 163 0 255
+	MinimapIcon 2 Blue Circle
+
+Show # Gems
+	BaseType "Gem"
+	SetFontSize 45
+	SetTextColor 209 7 128 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 245 245 245 255
+	MinimapIcon 2 Purple Hexagon
+
+Show # Flask
+	BaseType "Flask"
+	SetFontSize 45
+	SetTextColor 209 7 128 255
+	SetBorderColor 0 0 0 255
+	SetBackgroundColor 245 245 245 255
+
+
+Hide # Normal 
+	Rarity Normal
+	Class == "Amulets" "Belts" "Body Armours" "Boots" "Gloves" "Helmets" "Rings" "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers"  "Sceptres" "Shields" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Quarterstaves" "Spears" "Sceptres" "Flails" "Foci" "Crossbows" "Traps" 
