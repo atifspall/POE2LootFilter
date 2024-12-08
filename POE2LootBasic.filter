@@ -67,6 +67,6 @@ Show # Flask
 	SetBackgroundColor 245 245 245 255
 
 
-Hide # Normal 
+Show # All normal
 	Rarity Normal
-	Class == "Amulets" "Belts" "Body Armours" "Boots" "Gloves" "Helmets" "Rings" "Bows" "Claws" "Daggers" "One Hand Axes" "One Hand Maces" "One Hand Swords" "Quivers"  "Sceptres" "Shields" "Staves" "Two Hand Axes" "Two Hand Maces" "Two Hand Swords" "Wands" "Quarterstaves" "Spears" "Sceptres" "Flails" "Foci" "Crossbows" "Traps" 
+	SetFontSize 40
